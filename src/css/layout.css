@@ -1,0 +1,152 @@
+.header{
+    height: 64px;
+    line-height: 64px;
+    border-bottom: 1px solid #dadce0;
+    margin-bottom: 20px;
+}
+
+.header-name{
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.mainComponent{
+    width: calc(100% - 270px);
+    float: left;
+}
+
+.weekNavigator{
+    height: 64px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.weekNavigator-month{
+    font-size: 28px;
+    color: #3c4043;
+    font-weight: 600;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+
+.btn-today {
+    height: 36px;
+    float: right;
+
+    /* width: 46px;
+    line-height: 36px;
+    border: 3px solid #CCC;
+    border-radius: 50px;
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    font-family: 'NanumSquare';
+    font-weight: 700; */
+}
+
+.btn-nextWeek {
+    height: 36px;
+    float: right;
+
+    /* width: 36px;
+    line-height: 36px;
+    border: 3px solid #CCC;
+    border-radius: 50px;
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    font-family: 'NanumSquare';
+    font-weight: 700; */
+}
+
+.btn-prevWeek {
+    height: 36px;
+    float: right;
+
+    /* width: 36px;
+    line-height: 36px;
+    border: 3px solid #CCC;
+    border-radius: 50px;
+    text-align: center;
+    color: #888;
+    font-size: 16px;
+    font-family: 'NanumSquare';
+    font-weight: 700; */
+}
+
+.btn-reserv{
+    height: 36px;
+    float: right;
+    margin: 15px 15px 0 0;
+}
+
+.weekNavigatorText {
+    margin-left: 138px;
+}
+
+.rectangle{
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+}
+
+.color-MD{
+    background-color: #42a5f5;
+}
+
+.color-MAD{
+    background-color: #ab47bc;
+}
+
+.color-ITD{
+    background-color: #ff7043;
+}
+
+.color-SSD{
+    background-color: #26a69a;
+}
+
+.color-RD{
+    background-color: #5c6bc0;
+}
+
+.color-IDAM{
+    background-color: #ec407a;
+}
+
+.no-border{
+    border: none !important;
+}
+
+.mt200{
+    margin-top:200px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.loading{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+    top: 0px;
+    z-index: 2021;
+    background-color: #FFF;
+    opacity: 0.6;
+}
